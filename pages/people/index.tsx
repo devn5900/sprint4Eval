@@ -30,7 +30,7 @@ const index = ({ users }: userProps) => {
       >
         {users?.map((el) => {
           return (
-            <Card boxShadow={"md"} align={"center"}>
+            <Card boxShadow={"md"} align={"center"} key={el.id}>
               <CardHeader textAlign={"center"}>
                 <Box
                   bg="orange"
