@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import { getTodo, getUser } from "@/utils/api";
 import { staticPropT, todosT } from "@/utils/types";
 import { useRouter } from "next/router";
