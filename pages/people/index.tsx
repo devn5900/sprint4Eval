@@ -1,4 +1,4 @@
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/Navbar";
 import { getUser } from "@/utils/api";
 import React from "react";
 import {
